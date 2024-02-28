@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .underline{
     width: 100px;
     height: 4px;
@@ -13,4 +22,65 @@ img{
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 6px -8px rgb(105, 152, 214);
+}
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(108, 182, 182);
+    font-size: 24px;
+}
+
+#prev-btn{
+    margin-right: 20px;
+}
+#next-btn{
+    margin-left: 20px;
+}
+
+#info{
+    padding: 20px;
+}
+
+.article{
+    background-color: white;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.title{
+    margin-left: 150px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.underline{
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+#name{
+    letter-spacing: 5px;
+    font-size:20px;
+}
+
+#job{
+    text-transform: uppercase;
+    color: rgb(108, 182, 182);
+    text-decoration: underline wavy;
+}
+
+#info{
+    font-size:18px;
+    color:rgb(9, 100, 185, 0.6);
 }
