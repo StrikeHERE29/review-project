@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", function(){
 showPerson()
 })
 
-
+//function to update the info
 function showPerson(){
     const item = reviews[currentItem];
     img.src = item.img;
