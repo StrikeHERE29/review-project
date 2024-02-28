@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.underline{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(110, 110, 214, 0.7);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
